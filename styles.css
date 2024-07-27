@@ -1,0 +1,178 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9d3ee;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container2 {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.input-container2 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#todoInput {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 3px 0 0 3px;
+}
+
+#todoDelete {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 3px 0 0 3px;
+}
+
+#addTodo {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f95087;
+    color: white;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+}
+
+#delete {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f95087;
+    color: white;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+}
+
+#addTodo:hover {
+    background-color: #d1396a;
+}
+
+#delete:hover {
+    background-color: #d1396a;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+
+li span {
+    padding-left: 10px;
+    color: #4c4c4c;
+}
+
+li.checked span {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+.delete-btn {
+    margin-left: auto;
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #d32f2f;
+}
+
+/* Style for the restore button */
+.restore-btn {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.restore-btn:hover {
+    background-color: #388e3c;
+}
+
+
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.logo2 img {
+    width: 150px;
+}
+
+#deleteList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#deleteList li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+}
+
+#deleteList li span {
+    padding-left: 10px;
+    color: #4c4c4c;
+}
